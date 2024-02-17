@@ -14,6 +14,7 @@ function GoalItem(props) {
   );
 }
 
+
 const styles = StyleSheet.create({
   goalItem: {
     margin: 8,

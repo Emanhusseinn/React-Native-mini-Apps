@@ -8,8 +8,8 @@ import {
   FlatList,
 } from "react-native";
 import { useState } from "react";
-import GoalItem from "./components/GoalItem";
-import GoalInput from "./components/GoalInput";
+import GoalItem from "./components/GoalsTracker/GoalItem";
+import GoalInput from "./components/GoalsTracker/GoalInput";
 import { StatusBar } from "expo-status-bar";
 
 export default function App() {
@@ -19,6 +19,7 @@ export default function App() {
   function startAddGoalHandle() {
     setModalIsVisable(true);
   }
+
   function endAddGoalHandle() {
     setModalIsVisable(false);
   }
